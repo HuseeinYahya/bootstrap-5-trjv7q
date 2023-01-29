@@ -1,0 +1,143 @@
+.ggg {
+  background-image: -webkit-radial-gradient(
+      100% 50%,
+      circle,
+      transparent 20%,
+      rgba(255, 255, 255, 0.3) 21%,
+      rgba(255, 255, 255, 0.3) 34%,
+      transparent 35%,
+      transparent
+    ),
+    -webkit-radial-gradient(0% 50%, circle, transparent 20%, rgba(
+            255,
+            255,
+            255,
+            0.3
+          )
+          21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent);
+  background-image: -moz-radial-gradient(
+      100% 50%,
+      circle,
+      transparent 20%,
+      rgba(255, 255, 255, 0.3) 21%,
+      rgba(255, 255, 255, 0.3) 34%,
+      transparent 35%,
+      transparent
+    ),
+    -moz-radial-gradient(0% 50%, circle, transparent 20%, rgba(
+            255,
+            255,
+            255,
+            0.3
+          )
+          21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent);
+  background-image: -o-radial-gradient(
+      100% 50%,
+      circle,
+      transparent 20%,
+      rgba(255, 255, 255, 0.3) 21%,
+      rgba(255, 255, 255, 0.3) 34%,
+      transparent 35%,
+      transparent
+    ),
+    -o-radial-gradient(0% 50%, circle, transparent 20%, rgba(255, 255, 255, 0.3)
+          21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent);
+  background-image: -ms-radial-gradient(
+      100% 50%,
+      circle,
+      transparent 20%,
+      rgba(255, 255, 255, 0.3) 21%,
+      rgba(255, 255, 255, 0.3) 34%,
+      transparent 35%,
+      transparent
+    ),
+    -ms-radial-gradient(0% 50%, circle, transparent 20%, rgba(
+            255,
+            255,
+            255,
+            0.3
+          )
+          21%, rgba(255, 255, 255, 0.3) 34%, transparent 35%, transparent);
+  background-image: radial-gradient(
+      100% 50%,
+      circle,
+      transparent 20%,
+      rgba(255, 255, 255, 0.3) 21%,
+      rgba(255, 255, 255, 0.3) 34%,
+      transparent 35%,
+      transparent
+    ),
+    radial-gradient(
+      0% 50%,
+      circle,
+      transparent 20%,
+      rgba(255, 255, 255, 0.3) 21%,
+      rgba(255, 255, 255, 0.3) 34%,
+      transparent 35%,
+      transparent
+    );
+  background-color: #d3d4fd;
+  background-size: 75px 100px;
+  background-position: 0 0%, 0 -50px;
+}
+
+/*-----------------------------------*/
+
+.navbar-mobile {
+  display: none;
+}
+
+.navbar-mobile {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .navbar-mobile {
+    display: block;
+    background-color: #fff;
+    border-radius: 1rem 1rem 0 0 !important;
+    width: 100%;
+    position: fixed;
+    right: 50%;
+    bottom: 0;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    z-index: 99999;
+    padding: 0.5rem 2rem;
+    -webkit-box-shadow: 0 1rem 3rem rgba(29, 58, 83, 0.5);
+    box-shadow: 0 1rem 3rem rgba(29, 58, 83, 0.5);
+  }
+  .navbar-mobile .navbar-nav {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+    justify-content: space-between !important;
+  }
+  .navbar-mobile .nav-item {
+    text-align: center;
+  }
+  .navbar-mobile .nav-item .nav-link {
+    font-size: 1.3rem;
+    color: var(--bs-body-color);
+    padding: 0;
+  }
+  .navbar-mobile .nav-item .nav-link.active,
+  .navbar-mobile .nav-item .nav-link:hover {
+    color: var(--bs-navbar-active-color);
+  }
+  .navbar-mobile .nav-item .nav-link .nav-text {
+    font-size: 0.6em;
+    display: block;
+  }
+}
+@media (max-width: 575.98px) {
+  .has-navbar-mobile footer {
+    padding-bottom: 4rem !important;
+  }
+}
